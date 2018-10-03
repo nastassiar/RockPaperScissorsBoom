@@ -15,7 +15,7 @@ With this first challenge you will be able to setup the environment required to 
 
 [Docker Machine](https://docs.docker.com/machine/overview/) is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands. This will allow you to build a linux VM in Azure that will act as your development box. On this VM you will build and run your code and containers during development. However insted of SSHing into the VM to do this work, the docker machine components will install into your Azure Cloud Shell, giving you control of the docker instance in the VM from the browser. This eliminates the need to install anything locally on your machine.
 
-![Setup](docs/Setup.png)
+![Setup](../docs/Setup.png)
 
 ## Challenges
 
