@@ -8,6 +8,8 @@
 
 We've got our app running, but how do we know how well it's performing? Let's instrument `Application Insights` so you can see what's happening inside the app.
 
+![Add Application Monitoring](../docs/AddApplicationMonitoring.png)
+
 ## Challenges
 
 1. You'll find the app is already wired up for Application Insights, you just need to populate app settings configuration with your own Application Insights key. Once you have the key, start using the app to see metrics.
