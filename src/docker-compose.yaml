@@ -1,13 +1,5 @@
 version: '3'
 services:
-  rockpaperscissors-sql:
-    image: microsoft/mssql-server-linux
-    container_name: rockpaperscissors-sql
-    environment:
-        SA_PASSWORD: "M1cr0s0ft2018"
-        ACCEPT_EULA: "Y"
-    ports:
-        - "1433:1433"
 
   rockpaperscissors-server:
     build:
@@ -15,7 +7,7 @@ services:
       dockerfile: Dockerfile-Server
     container_name: rockpaperscissors-server
     environment:
-      "ConnectionStrings:DefaultConnection": "Server=rockpaperscissors-sql,1433;Database=RockPaperScissorsBoom;User Id=SA;Password=M1cr0s0ft2018;"
+      "ConnectionStrings:DefaultConnection": "Server=tcp:server-p20rps.database.windows.net,1433;Initial Catalog=p20rpsdb;Database=RockPaperScissorsBoom;Persist Security Info=False;User ID=AdminUser;Password=ChangeYoPassword2;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     ports:
         - "80:80"
     depends_on:
