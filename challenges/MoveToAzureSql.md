@@ -8,6 +8,8 @@
 
 So far we have deployed a SQL Server on Linux containers which was really convenient for dev/test scenarios, especially locally. But now with this challenge we would like to leverage Azure SQL Database as a Platform-as-a-Service (PaaS) which offers out-of-the-box features for Production: security patch, SQL Server upgrades, Auto-tuning, Geo-replication, Scaling up or down the size of the server, etc. that we don't want to do by ourself.
 
+![Move to Azure SQL Database](docs/MoveToAzureSql.png)
+
 ## Challenges
 
 1. Provision your Azure SQL Database via Infrastructure-as-Code from within Azure Cloud Shell. The approach here is to leverage the Azure CLI (not the Azure portal) by executing a serie of bash commands. *Friends don't let friends use UI to provision Azure services, right? ;)*

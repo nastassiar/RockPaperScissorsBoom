@@ -8,6 +8,8 @@
 
 In a previous challenge we deployed the app on Azure but into an Azure Docker-machine playing the role of your local machine. Now with this challenge you will be able to provision an Azure Web App Service for Containers to host your "Rock Paper Scissors Boom" app.
 
+![Run on Azure](docs/RunOnAzure.png)
+
 ## Challenges
 
 1. Provision an Azure Web App Service for Containers via Infrastructure-as-Code from within Azure Cloud Shell. The approach here is to leverage the Azure CLI (not the Azure portal) by executing a series of bash commands. Do you remember? *Friends don't let friends use UI to provision Azure services, right? ;)*
