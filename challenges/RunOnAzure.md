@@ -48,5 +48,6 @@ Too comfortable? Eager to do more? Try this:
 - [Azure ARM Templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
 - [Ansible for Azure](https://docs.microsoft.com/en-us/azure/ansible/)
 - [Terraform for Azure](https://docs.microsoft.com/en-us/azure/terraform/)
+- [Azure App Service diagnostics overview](https://docs.microsoft.com/en-us/azure/app-service/app-service-diagnostics)
 
 [Next challenge (Run the Game Continuously) >](./RunTheGameContinuously.md)

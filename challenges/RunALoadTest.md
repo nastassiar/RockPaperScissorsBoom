@@ -49,5 +49,6 @@ Too comfortable? Eager to do more? Try this:
 * [Load Testing with Azure Devops](https://docs.microsoft.com/en-us/azure/devops/test/load-test/getting-started-with-performance-testing?view=vsts)
 * [Autoscaling Azure App Services](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-autoscale-get-started)
 * [Create Azure Dashboards](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
+* [Azure App Service diagnostics overview](https://docs.microsoft.com/en-us/azure/app-service/app-service-diagnostics)
 
 End of the Hack! Congrats! Have you done [all the challenges](../README.md)?
