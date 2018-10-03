@@ -22,6 +22,8 @@ Once you deploy your app to Azure, how do you know how well it performs under lo
 1. Review the detailed charts and diagnostics for the test run in Azure Devops.
 1. Review the application insights chart you built for measuring how long the games take to run. If you successfully automated the game runs, did they take longer when you were performing your tests?
 1. Review the DTU chart on the Overview blade for your SQL DB in the Azure portal. Did you see a spike on the DTUs during the load test? 
+1. Play with the "Diagnose and solve problems" bload for your Azure Web App in the Azure portal. Let's know more about usage, CPU, memory, etc. and the info and recommendation you could get.
+1. In Azure DevOps (Boards), from the Boards view, you could now drag and drop the user story associated to this Challenge to the `Resolved` or `Closed` column, congrats! ;)
 
 ## Tips
 
@@ -32,6 +34,7 @@ Once you deploy your app to Azure, how do you know how well it performs under lo
     * Logic Apps Actions Completed, 
     * Event Grid Published Events
 * Check out this sample dashboard
+
 ![Sample dashboard](images/dashboard.png)
 
 ## Advanced challenges
