@@ -1,3 +1,5 @@
+# Create SQL Server
+
 az sql server create \
 	--name server-p20rps \
 	--resource-group p20rps \
@@ -29,3 +31,12 @@ az sql db update \
 	--name mySampleDatabase \
 	--zone-redundant false
     Server=tcp:server-p20rps.database.windows.net,1433;Initial Catalog=p20rpsdb;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+    
+# Create Linux App service Plan
+
+az appservice plan create --name p20rpsserviceplan --resource-group p20rps --sku B1 --is-linux
+
+# Create a Linux App
+
+az webapp create --resource-group p20rps --plan p20rpsserviceplan --name rockpaperscissors --deployment-container-image-name nastassiar/src_rockpaperscissors-server:v1
+
