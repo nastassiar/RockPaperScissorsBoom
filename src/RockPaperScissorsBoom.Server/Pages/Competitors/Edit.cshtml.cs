@@ -12,7 +12,7 @@ using RockPaperScissorsBoom.Server.Data;
 
 namespace RockPaperScissorsBoom.Server.Pages.Competitors
 {
-    [Authorize]
+    //[Authorize]
     public class EditModel : PageModel
     {
         private readonly RockPaperScissorsBoom.Server.Data.ApplicationDbContext _context;
