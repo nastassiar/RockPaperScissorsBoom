@@ -42,5 +42,7 @@
 # Update App Service Settings
 	az webapp config appsettings set --resource-group p20rps --name rockpaperscissors-nr --settings "ConnectionStrings:DefaultConnection": "Server=tcp:server-p20rps.database.windows.net,1433;Initial Catalog=p20rpsdb;Database=RockPaperScissorsBoom;Persist Security Info=False;User ID=AdminUser;Password=ChangeYoPassword2;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
  
+ 
+ Testing CI/CD :) 
 
 
